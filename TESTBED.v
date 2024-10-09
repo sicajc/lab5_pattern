@@ -29,7 +29,7 @@
     `include "CHIP.v"
 `endif
 
-	  		  	
+
 module TESTBED;
 
 wire         clk, rst_n, in_valid, in_valid2;
@@ -40,22 +40,21 @@ wire  [2:0]  action;
 wire         out_valid;
 wire         out_value;
 
-
 initial begin
 	`ifdef RTL
-		$fsdbDumpfile("TMIP.fsdb");
-		$fsdbDumpvars(0,"+mda");
-		$fsdbDumpvars();
+		// $fsdbDumpfile("TMIP.fsdb");
+		// $fsdbDumpvars(0,"+mda");
+		// $fsdbDumpvars();
 	`endif
 	`ifdef GATE
-		$sdf_annotate("TMIP_SYN.sdf", u_TMIP);
+		// $sdf_annotate("TMIP_SYN.sdf", u_TMIP);
 		//$fsdbDumpfile("TMIP_SYN.fsdb");
-		//$fsdbDumpvars();    
+		//$fsdbDumpvars();
 	`endif
 	`ifdef POST
-		$sdf_annotate("CHIP.sdf", u_CHIP);
+		// $sdf_annotate("CHIP.sdf", u_CHIP);
 		//$fsdbDumpfile("CHIP.fsdb");
-		//$fsdbDumpvars();    
+		//$fsdbDumpvars();
 	`endif
 end
 
@@ -64,15 +63,15 @@ end
 		// Input signals
 		.clk(clk),
 		.rst_n(rst_n),
-		
+
 		.in_valid(in_valid),
 		.in_valid2(in_valid2),
-		
+
 		.image(image),
 		.template(template),
 		.image_size(image_size),
 		.action(action),
-	
+
 		// Output signals
 		.out_valid(out_valid),
 		.out_value(out_value)
@@ -82,15 +81,15 @@ end
 		// Input signals
 		.clk(clk),
 		.rst_n(rst_n),
-		
+
 		.in_valid(in_valid),
 		.in_valid2(in_valid2),
-		
+
 		.image(image),
 		.template(template),
 		.image_size(image_size),
 		.action(action),
-	
+
 		// Output signals
 		.out_valid(out_valid),
 		.out_value(out_value)
@@ -100,15 +99,15 @@ end
 		// Input signals
 		.clk(clk),
 		.rst_n(rst_n),
-		
+
 		.in_valid(in_valid),
 		.in_valid2(in_valid2),
-		
+
 		.image(image),
 		.template(template),
 		.image_size(image_size),
 		.action(action),
-	
+
 		// Output signals
 		.out_valid(out_valid),
 		.out_value(out_value)
@@ -119,10 +118,10 @@ PATTERN u_PATTERN(
     // Output signals
     .clk(clk),
 	.rst_n(rst_n),
-	
+
 	.in_valid(in_valid),
 	.in_valid2(in_valid2),
-	
+
     .image(image),
 	.template(template),
 	.image_size(image_size),
@@ -132,5 +131,5 @@ PATTERN u_PATTERN(
 	.out_valid(out_valid),
 	.out_value(out_value)
 );
- 
+
 endmodule

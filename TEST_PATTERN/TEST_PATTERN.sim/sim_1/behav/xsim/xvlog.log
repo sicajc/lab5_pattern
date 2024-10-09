@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jacky/Desktop/LAB5_PATTERN/PATTERN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PATTERN
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [C:/Users/jacky/Desktop/LAB5_PATTERN/PATTERN.v:178]
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [C:/Users/jacky/Desktop/LAB5_PATTERN/PATTERN.v:196]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jacky/Desktop/LAB5_PATTERN/TMIP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TMIP
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [C:/Users/jacky/Desktop/LAB5_PATTERN/TMIP.v:69]
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [C:/Users/jacky/Desktop/LAB5_PATTERN/TMIP.v:67]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jacky/Desktop/LAB5_PATTERN/TESTBED.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PATTERN
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'PATTERN' [C:/Users/jacky/Desktop/LAB5_PATTERN/PATTERN.v:13]
+INFO: [VRFC 10-311] analyzing module TMIP
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'TMIP' [C:/Users/jacky/Desktop/LAB5_PATTERN/TMIP.v:1]
+INFO: [VRFC 10-311] analyzing module TESTBED

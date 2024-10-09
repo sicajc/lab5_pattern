@@ -1,0 +1,8 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Users/jacky/Desktop/LAB5_PATTERN/PATTERN.v,1728477957,verilog,,C:/Users/jacky/Desktop/LAB5_PATTERN/TMIP.v,,PATTERN,,,,,,,,
+C:/Users/jacky/Desktop/LAB5_PATTERN/TESTBED.v,1728471994,verilog,,,C:/Users/jacky/Desktop/LAB5_PATTERN/PATTERN.v;C:/Users/jacky/Desktop/LAB5_PATTERN/TMIP.v,TESTBED,,,,,,,,
+C:/Users/jacky/Desktop/LAB5_PATTERN/TEST_PATTERN/TEST_PATTERN.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+C:/Users/jacky/Desktop/LAB5_PATTERN/TMIP.v,1728478636,verilog,,C:/Users/jacky/Desktop/LAB5_PATTERN/TESTBED.v,,TMIP,,,,,,,,
